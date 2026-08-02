@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.varagesale.com/
+host: https://www.varagesale.com
+note: No well-known discovery documents are published. /llms.txt and /security.txt
+  soft-redirect (302) to the /communities directory page rather than serving a document.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 302
+  redirect: https://www.varagesale.com/communities
+- path: /security.txt
+  status: 302
+  redirect: https://www.varagesale.com/communities

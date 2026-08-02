@@ -1,8 +1,15 @@
 aid: varagesale
 name: Varagesale
-description: Varagesale is a company surfaced as a portfolio company of lightspeed-venture-partners, version-one-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: 'VarageSale is a community-based online marketplace for buying and selling
+  used items locally, founded in 2012 by Montreal teacher Tami Zuckerman and programmer
+  Carl Mercier and headquartered in Toronto, Ontario. Members join a local community,
+  verify their identity, and buy and sell with verified neighbors through native iOS
+  and Android apps and the web, with communities across North America and beyond.
+  Backed by Sequoia Capital and Lightspeed Venture Partners, VarageSale was acquired
+  by VerticalScope in 2017, with online auction company MaxSold assuming operational
+  control in early 2026. It is a direct-to-consumer marketplace and does not publish
+  a public developer API, so this record captures its identity, web properties, and
+  domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/varagesale/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +18,56 @@ x-backed-by:
 - version-one-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://static1.varagesale.com/assets/logo-vs-bigger-5e0272661f3c2e93084ef8877d0f66abbd1a1bef530d5b6246b05abc8b331e92.png
 tags:
 - Company
+- Consumer
+- Marketplace
+- Classifieds
+- Local Commerce
+- Second-Hand
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/varagesale-domain-security.yml
+- type: LLMsTxt
+  url: llms/varagesale-llms.txt
+- type: Website
+  url: https://www.varagesale.com/
+- type: Blog
+  url: https://news.varagesale.com/
+- type: Support
+  url: https://help.varagesale.com/
+- type: SignUp
+  url: https://www.varagesale.com/sign_up
+- type: Login
+  url: https://www.varagesale.com/login
+- type: TermsOfService
+  url: https://www.varagesale.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.varagesale.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

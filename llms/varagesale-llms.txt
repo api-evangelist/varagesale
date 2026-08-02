@@ -1,0 +1,22 @@
+# VarageSale
+
+> VarageSale is a community-based online marketplace for buying and selling used items locally. Founded in 2012 by Tami Zuckerman and Carl Mercier and headquartered in Toronto, it connects verified neighbors in local communities through iOS/Android apps and the web. Acquired by VerticalScope in 2017; MaxSold assumed operational control in early 2026. VarageSale is a direct-to-consumer marketplace and does not publish a public developer API.
+
+## Company
+
+- [Website](https://www.varagesale.com/): Sell simply, buy safely — local community marketplace
+- [Communities](https://www.varagesale.com/communities): Directory of local buy-and-sell communities across the US and Canada
+- [Help Center](https://help.varagesale.com/): Member support and FAQs
+- [Blog](https://news.varagesale.com/): VarageSale news
+- [Press](https://www.varagesale.com/press): Press resources and company facts
+- [Terms of Service](https://www.varagesale.com/terms-of-service)
+- [Privacy Policy](https://www.varagesale.com/privacy)
+
+## APIs
+
+VarageSale publishes no public developer API, developer portal, SDKs, or API documentation. No /.well-known discovery documents, security.txt, or llms.txt are served (probed 2026-07-21).
+
+## Machine-Readable
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/varagesale/refs/heads/main/apis.yml): API Evangelist profile of VarageSale
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/varagesale/refs/heads/main/security/varagesale-domain-security.yml): Probed TLS/HSTS/DNS posture
