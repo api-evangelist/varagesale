@@ -42,7 +42,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 image: https://static1.varagesale.com/assets/logo-vs-bigger-5e0272661f3c2e93084ef8877d0f66abbd1a1bef530d5b6246b05abc8b331e92.png
 tags:
 - Company
@@ -67,6 +67,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://news.varagesale.com/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/varagesale-domain-security.yml
 - type: LLMsTxt
