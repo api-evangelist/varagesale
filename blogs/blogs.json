@@ -2,6 +2,20 @@
   "repo": "varagesale",
   "feeds": [
     {
+      "source": "https://news.varagesale.com/feed/",
+      "feed_url": "https://news.varagesale.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://news.varagesale.com/",
+      "feed_url": "https://news.varagesale.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://www.varagesale.com/",
       "feed_url": "https://www.varagesale.com/",
       "title": "",
@@ -10,5 +24,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
